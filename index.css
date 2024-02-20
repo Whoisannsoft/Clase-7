@@ -17,4 +17,15 @@ contenedor {
     height: 50px;
     border: 2px solid rgb(163, 0, 0);
     background-color: rgb(240, 74, 74);
+    margin: 20px;
+}
+.rectangulo2 {
+    position: absolute;
+    top: 100vh; 
+    left: 10px; 
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(170, 85, 0);
+    background-color: orange;
+    margin: 20px;
 }

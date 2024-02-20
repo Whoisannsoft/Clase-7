@@ -4,7 +4,6 @@ body, html {
 }
 
 contenedor {
-    
     position: relative;
     height: 100vh;
 }
@@ -21,11 +20,52 @@ contenedor {
 }
 .rectangulo2 {
     position: absolute;
-    top: 100vh; 
+    bottom: 10px;
     left: 10px; 
     width: 100px;
     height: 50px;
     border: 2px solid rgb(170, 85, 0);
     background-color: orange;
     margin: 20px;
+}
+.rectangulo3 { 
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(112, 0, 75);
+    background-color: pink;
+    margin: 20px;
+}
+.rectangulo4 { 
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(0, 81, 108);
+    background-color: aqua;
+    margin: 20px;
+}
+.rectangulo5 {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centrar correctamente */
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(3, 135, 56);
+    background-color: rgb(87, 224, 87);
+    margin: 10px; 
+}
+.rectangulo6 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(135, 115, 3);
+    background-color: rgb(229, 217, 130);
+    margin: 10px; 
 }

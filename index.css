@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+contenedor {
+    
+    position: relative;
+    height: 100vh;
+}
+
+.rectangulo1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(163, 0, 0);
+    background-color: rgb(240, 74, 74);
+}
